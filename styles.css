@@ -1,0 +1,21 @@
+.grid-item {
+    border: solid black 1px;
+
+}
+
+#container {
+    display: grid; 
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);  
+    width: 600px;
+    height: 600px;
+    margin: 0 auto 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+#resetButton{
+    padding: 15px;
+}
